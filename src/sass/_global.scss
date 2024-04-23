@@ -1,0 +1,40 @@
+@use "./variable" as *;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 20rem;
+  background-color: $primaryBodyColour;
+  font-family: $InterFont;
+
+  h1 {
+    font-weight: $InterFont600;
+    color: $correctTextColour
+  }
+
+  p {
+    font-weight: $InterFont400;
+    color: $primaryTextColour;
+  }
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+//Link reference 
+// a{}
+// a:visited{}
+// a:hover{}
+// a:active{}
+// a:focus{}
+
+ul{
+   list-style:none;
+   text-decoration: none;
+}
