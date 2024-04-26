@@ -1,0 +1,10 @@
+PsudoCode and Steps
+
+// Game Display Information
+1. information Display component that takes in:
+   - a timer function
+   - target word function
+   - level function
+   - points function
+   - added time function
+2. the component need to take in parameter to Display the information

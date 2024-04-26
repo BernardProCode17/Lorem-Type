@@ -1,4 +1,5 @@
 function OneMinuteRules(){
+   // Game Rules for '1 Minute' game Mode
    return(
       <ol className="gameRules_list">
          <li className="gameRules_listItems">Press the start button to begin the game</li>
