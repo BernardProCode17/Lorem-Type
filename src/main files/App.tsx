@@ -4,6 +4,7 @@ import Section from "../components/Section"
 import GameRules from "../components/GameRules_Options/GameRules_Main/Gamerules"
 import OptionSelector from "../components/Options_Selectors/OptionSelectors"
 import InfoDiv from "../components/GameDisplayInfo/infoDiv"
+import TextArea from "../components/TextArea/TextArea"
 import {Context, GlobalContext} from "./GlobalContext"
 
 // *Log* // 
@@ -21,6 +22,7 @@ function App() {
           <Section title={'Game rules'} Component={GameRules} elementSelector={'gameRules'} titleClass='gameRules' />
           <Section title={'Choose Options'} Component={[OptionSelectorTime, OptionSelectorWords]} elementSelector={'choose_options'} titleClass={'choose_options'} />
           <Section Component={InfoDiv} elementSelector={'displayInfo'} />
+          <Section Component={TextArea} elementSelector={'textArea'} />
         </Main>
     </Context>
 
